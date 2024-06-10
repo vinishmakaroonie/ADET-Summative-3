@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    
+  }
+
+body {
+    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+}
+
+h1, h4 {
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.card-header {
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-body {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 90, 0);
+    color: white;
+    font-weight: 900;
+    background-color: rgb(0, 90, 0);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #005a00;
+    border-color: #005a00;
+}
+
+.card {
+    border: 0.5px solid black;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table-bordered td {
+    border-bottom: 1pt dashed black;
+}
+
+tbody {
+    padding: 3px;
+    font-size: 15px;
+}
+
+td {
+    padding: 5px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-info, .btn-danger {
+    text-decoration: none;
+}
+
+.button1 {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* Center the button */
+}
+
+.rating-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.star-wrapper {
+    font-size: 2rem;
+}
+
+.star-wrapper i {
+    cursor: pointer;
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.star-wrapper i.checked {
+    color: #f5c518;
+}
+
+p.v-data {
+    background: #ccc;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+.form-control:focus {
+    border-color: #005a00;
+    box-shadow: 0 0 5px rgba(0,90,0,0.5);
+}
